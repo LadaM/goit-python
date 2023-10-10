@@ -10,4 +10,6 @@ setup(
     license='MIT',
     packages=find_namespace_packages(),
     install_requires=['markdown'],
+    # can list executable files .exe, bash files, cmd or other files that can be executed by the system
+    entry_points={'console_scripts': ['helloworld = package_practice.some_code:hello_world']}
 )
