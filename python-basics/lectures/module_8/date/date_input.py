@@ -23,5 +23,5 @@ changed_date = parsed_date.replace(year=2000)
 print(f"Changed datetime {changed_date}, initial datetime {parsed_date}")
 
 # can substract dates (no adding is possible)
-delta = input_date - changed_date
+delta = parsed_date - changed_date
 print(delta)

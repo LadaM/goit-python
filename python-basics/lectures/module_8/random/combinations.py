@@ -20,4 +20,4 @@ while count_heads < streak and count_tails < streak:
         count_tails += 1
         count_heads = 0
     sequence.append(coin_tosses[choice])
-print(f"Made {len(sequence)} attempts to get streak of {stre}")
+print(f"Made {len(sequence)} attempts to get streak of {streak}")

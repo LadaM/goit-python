@@ -15,4 +15,4 @@ users[3] = "Inactive"
 def get_user_status(user_id):
     users[user_id]
 
-print(get_user_status(4)) # -> "New"
+print(get_user_status(4)) # expecting -> "New" getting -> None
