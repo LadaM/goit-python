@@ -1,0 +1,3 @@
+Console application to keep track of casualties...
+
+###Moskali
